@@ -1,0 +1,13 @@
+body{
+  margin:0;
+}
+
+
+#container{
+  height:700px;
+  display:grid;
+}
+
+#top{
+  display:flex;
+}
