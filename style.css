@@ -10,60 +10,99 @@ body{
   grid-template-columns:repeat(1,1fr)
   grid-template-rows:25% 70%;
 }
-#headings{
 
+#headings{
   text-align: center;
   font-size:32px;
-  border:solid;
   color:#2E3B4E;
 }
 
-
 .flex{
-  border:solid;
   display:flex;
   justify-content: space-around;
   align-items:center;
 }
 
 #left{
+border-color:#EDB312;
 text-align: center;
- margin:10px;
+margin:10px;
 }
+
 #centerleft{
 text-align: center;
 margin:10px;
 }
+
 #centerright{
 text-align: center;
 margin:10px;
 }
+
 #right{
 text-align: center;
 margin:10px;
 }
+
 .content{
   color:#5F6A7D;
   text-align: center;
   font-size:10px;
 }
+
 .yellow{
   color:#EDB312;
 }
+
 .green{
   color:#95BF15;
 }
+
 .bluegreen{
   color:#46C9B3;
 }
-a:link{ color:inherit;
-  text-decoration: none;
+
+.yellowbox{
+  background-color:#FFFFFF;
+  border-radius:10px;
 }
-a:hover{
+
+.greenbox{
+  background-color:#FFFFFF;
+  border-radius:10px;
+}
+.bluegreenbox{
+  background-color:#FFFFFF;
+  border-radius:10px;
+}
+
+.yellowbox:hover{
   border:solid;
+  border-color:#EDB312;
+}
+
+.greenbox:hover{
+  border:solid;
+  border-color:#95BF15
+}
+
+.bluegreenbox:hover{
+  border:solid;
+  border-color:#46C9B3;
+}
+
+a:link{ 
+  color:inherit;
+  text-decoration: none;
 }
 
 a:visited{
   color:inherit;
   text-decoration: none;}
-  
+
+.last{
+  text-align: center;
+}
+#footer{
+  color:#2586B7;
+  }
