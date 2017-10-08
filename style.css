@@ -27,7 +27,20 @@ body{
 }
 
 #left{
- 
+text-align: center;
+ margin:10px;
+}
+#centerleft{
+text-align: center;
+margin:10px;
+}
+#centerright{
+text-align: center;
+margin:10px;
+}
+#right{
+text-align: center;
+margin:10px;
 }
 .content{
 
