@@ -1,29 +1,41 @@
 body{
   background-color: #FAFAFA;
   margin:0;
+  padding:0;
 }
 
 #container{
   height:700px;
   display:grid;
   grid-template-columns:repeat(1,1fr)
-  grid-template-rows:repeat(3,1fr)
+  grid-template-rows:25% 70%;
 }
 #headings{
-  height:152px;
+
   text-align: center;
   font-size:32px;
-  background-color: grey;
-  color:white;
+  border:solid;
+  color:#2E3B4E;
 }
 
 
 .flex{
+  border:solid;
   display:flex;
   justify-content: space-around;
   align-items:center;
 }
 
 #left{
-  background-color: green;
+ 
+}
+
+.yellow{
+  color:#EDB312;
+}
+.green{
+  color:#95BF15;
+}
+.bluegreen{
+  color:#46C9B3;
 }
