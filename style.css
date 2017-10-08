@@ -43,7 +43,7 @@ text-align: center;
 margin:10px;
 }
 .content{
-
+  color:#5F6A7D;
   text-align: center;
   font-size:10px;
 }
@@ -56,9 +56,14 @@ margin:10px;
 .bluegreen{
   color:#46C9B3;
 }
-a:link{text-decoration:none;
-      color:none;
+a:link{ color:inherit;
+  text-decoration: none;
 }
 a:hover{
   border:solid;
 }
+
+a:visited{
+  color:inherit;
+  text-decoration: none;}
+  
