@@ -1,13 +1,29 @@
 body{
+  background-color: #FAFAFA;
   margin:0;
 }
-
 
 #container{
   height:700px;
   display:grid;
+  grid-template-columns:repeat(1,1fr)
+  grid-template-rows:repeat(3,1fr)
+}
+#headings{
+  height:152px;
+  text-align: center;
+  font-size:32px;
+  background-color: grey;
+  color:white;
 }
 
-#top{
+
+.flex{
   display:flex;
+  justify-content: space-around;
+  align-items:center;
+}
+
+#left{
+  background-color: green;
 }
