@@ -29,7 +29,11 @@ body{
 #left{
  
 }
+.content{
 
+  text-align: center;
+  font-size:10px;
+}
 .yellow{
   color:#EDB312;
 }
