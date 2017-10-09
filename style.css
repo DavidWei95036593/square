@@ -113,4 +113,58 @@ a:visited{
   }
 
 
+#secondpart{
+    border:solid;
+  display:grid;
+  grid-template-row:repeat(3,1fr);
+}
 
+#imgcontainer{
+  border:solid;
+  display:grid;
+  grid-template-column:repeat(2,1fr);
+  grid-template-row:repeat(2,1fr);
+}
+
+#leftpart{
+  grid-column-start:1;
+  grid-column-end:3;
+  border:solid;
+}
+
+#rightpart{
+   grid-column-start:3;
+  grid-column-end:5;
+  display:grid;
+  grid-template-column:repeat(2,1fr);
+  border:solid;
+}
+
+#topimg{
+    border:solid;
+}
+#botimg{
+  display:grid;
+  grid-template-row:repeat(2,1fr);
+  border:solid;
+}
+#leftbot{
+    grid-column-start:1;
+    grid-column-end:3;
+    border:solid;
+}
+
+#rightbot{
+    grid-column-start:3;
+    grid-column-end:5;
+    border:solid;
+  }
+
+#text{  text-align:center;
+  font-size:38px;
+  border:solid;}
+
+#footertext{
+   text-align:center;
+  font-size:18px;
+  border:solid;}
