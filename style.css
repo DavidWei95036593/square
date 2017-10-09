@@ -47,7 +47,7 @@ margin:10px;
 .content{
   color:#5F6A7D;
   text-align: center;
-  font-size:10px;
+  font-size:16px;
 }
 
 .yellow{
@@ -91,7 +91,7 @@ margin:10px;
   border-color:#46C9B3;
 }
 
-a:link{ 
+a:link{
   color:inherit;
   text-decoration: none;
 }
