@@ -114,12 +114,13 @@ a:visited{
 
 
 #secondpart{
-    border:solid;
+  border:solid;
   display:grid;
   grid-template-row:repeat(3,1fr);
 }
 
 #imgcontainer{
+
   border:solid;
   display:grid;
   grid-template-column:repeat(2,1fr);
@@ -127,12 +128,14 @@ a:visited{
 }
 
 #leftpart{
+  margin:10px;
   grid-column-start:1;
   grid-column-end:3;
   border:solid;
 }
 
 #rightpart{
+   margin:10px;
    grid-column-start:3;
   grid-column-end:5;
   display:grid;
@@ -141,26 +144,30 @@ a:visited{
 }
 
 #topimg{
+   margin:10px;
     border:solid;
 }
 #botimg{
+   margin:10px;
   display:grid;
   grid-template-row:repeat(2,1fr);
   border:solid;
 }
 #leftbot{
+   margin:10px;
     grid-column-start:1;
     grid-column-end:3;
     border:solid;
 }
 
 #rightbot{
+   margin:10px;
     grid-column-start:3;
     grid-column-end:5;
     border:solid;
   }
 
-#text{  text-align:center;
+#text{text-align:center;
   font-size:38px;
   border:solid;}
 
