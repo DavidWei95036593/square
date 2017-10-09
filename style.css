@@ -160,9 +160,11 @@ a:visited{
   }
 
 #text{text-align:center;
+  margin:10px;
   font-size:38px;}
 
 #footertext{
+  margin:10px;
    text-align:center;
   font-size:18px;
 }
