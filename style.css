@@ -11,12 +11,14 @@ body{
   grid-template-columns:repeat(4,1fr)
   grid-template-rows:25% 70%;
 }
-
 #headings{
+
   text-align: center;
   font-size:32px;
+  border:solid;
   color:#2E3B4E;
 }
+<<<<<<< HEAD
 #middle{
   /*margin:10px;*/
   /*display:grid;
@@ -25,94 +27,73 @@ body{
 .flex{
   /*flex-wrap:wrap;*/
   /*margin:10px;*/
+=======
+
+
+.flex{
+  border:solid;
+>>>>>>> parent of 43a197f... finish large part of the website
   display:flex;
   justify-content: space-between;
   align-items:center;
 }
 
 #left{
+<<<<<<< HEAD
 width:20%;
 border-color:#EDB312;
 text-align: center;
+=======
+text-align: center;
+ margin:10px;
+>>>>>>> parent of 43a197f... finish large part of the website
 }
-
 #centerleft{
 /*grid-column:1/2;*/
 width:20%;
 text-align: center;
 }
-
 #centerright{
 /*grid-column:1/2;*/
 width:20%;
 text-align: center;
 }
-
 #right{
 /*grid-column:1/2;*/
 width:20%;
 text-align: center;
 }
-
 .content{
   color:#5F6A7D;
   text-align: center;
   font-size:10px;
 }
-
 .yellow{
   color:#EDB312;
 }
-
 .green{
   color:#95BF15;
 }
-
 .bluegreen{
   color:#46C9B3;
 }
-
-.yellowbox{
-  background-color:#FFFFFF;
-  border-radius:10px;
+a:link{ color:inherit;
+  text-decoration: none;
 }
-
-.greenbox{
-  background-color:#FFFFFF;
-  border-radius:10px;
-}
-.bluegreenbox{
-  background-color:#FFFFFF;
-  border-radius:10px;
-}
-
-.yellowbox:hover{
+a:hover{
   border:solid;
-  border-color:#EDB312;
-}
-
-.greenbox:hover{
-  border:solid;
-  border-color:#95BF15
-}
-
-.bluegreenbox:hover{
-  border:solid;
+<<<<<<< HEAD
   border-color:#46C9B3;
 }
 
 a:link{
   color:inherit;
   text-decoration: none;
+=======
+>>>>>>> parent of 43a197f... finish large part of the website
 }
 
 a:visited{
   color:inherit;
   text-decoration: none;}
-
-.last{
-  text-align: center;
-}
-#footer{
-  color:#2586B7;
-  }
+  
