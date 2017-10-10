@@ -168,3 +168,32 @@ a:visited{
    text-align:center;
   font-size:18px;
 }
+
+#thirdpart{
+  background-color:#FAFAFA;
+text-align: center;
+}
+#thridparttitle{
+  margin:10px;
+  font-size:50px;
+}
+#thirdpartcontext{
+  margin:10px;
+  color:grey;
+}
+#thirdnav{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows:repeat(2,1fr);
+ 
+}
+
+#thirdmiddlepart{
+  text-align: center;
+  color:white;
+  background-color:#2996CC;
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:1;
+  grid-row-end:3;
+}
