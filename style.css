@@ -180,6 +180,7 @@ text-align: center;
 #thirdpartcontext{
   margin:10px;
   color:grey;
+  margin:30px;
 }
 #thirdnav{
   display:grid;
@@ -196,4 +197,11 @@ text-align: center;
   grid-column-end:3;
   grid-row-start:1;
   grid-row-end:3;
+}
+#forthpart{
+  background-color:#1B2126;
+  margin:50px;
+}
+#forthleft{
+  color:white;
 }
