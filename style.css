@@ -76,14 +76,17 @@ text-align: center;
   color:#46C9B3;
 }
 .yellowbox{
+  margin:10px;
   background-color:#FFFFFF;
   border-radius:10px;
 }
 .greenbox{
+  margin:10px;
   background-color:#FFFFFF;
   border-radius:10px;
 }
 .bluegreenbox{
+  margin:10px;
   background-color:#FFFFFF;
   border-radius:10px;
 }
@@ -251,7 +254,7 @@ li{
   margin:5px;
 }
 li.forthminititle{
-  
+
   color:grey;
   font-size:20px;
 }
