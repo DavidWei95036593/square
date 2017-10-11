@@ -171,9 +171,17 @@ a:visited{
   font-size:18px;
 }
 
-#thirdpart{
+#text{
+  font-size:30px;
+  margin-top:50px;
+  margin-bottom:50px;
   background-color:#FAFAFA;
-text-align: center;
+}
+
+#thirdpart{
+  margin-bottom:50px;
+  background-color:#FAFAFA;
+  text-align: center;
 }
 #thridparttitle{
   margin:10px;
@@ -193,14 +201,21 @@ text-align: center;
 
 .con{
   border:solid;
-  border-bottom-width:0px;
-  border-right-width: 0px;
-  border-left-width: 0px;
-  border-top-width: 1px;
+  border:solid;
+  border-top-width:2px;
+  border-bottom-width:2px;
+  border-left:0px;
+  border-right:0px;
+  border-color:#373C40;
+  margin-right: 100px;
+  margin-top:50px;
+  margin-bottom:50px;
+  margin-left:100px;
   border-color:#E0E0E0;
 }
 
 #thirdmiddlepart{
+
   text-align: center;
   color:white;
   background-color:#2996CC;
@@ -210,17 +225,26 @@ text-align: center;
   grid-row-end:3;
   margin:10px;
 }
-#forthpart{
-  background-color:#1B2126;
+#forthandfifthpart{
+
+  background-color: #1B2126;
   color:white;
+}
+#forthpart{
+  border-top-width:2px;
+  border-bottom-width:2px;
+  border-left:0px;
+  border-right:0px;
+  border-color:#373C40;
+  margin-right: 100px;
+  margin-top:50px;
+  margin-bottom:50px;
+  margin-left:100px;
+  text-align:left;
   display:grid;
   grid-template-columns:repeat(4,1fr);
   grid-template-rows:repeat(1,1fr);
 }
-#fifthpart{
-  
-}
-
 li{
   font-size:14px;
   margin:5px;
@@ -228,4 +252,34 @@ li{
 li.forthminititle{
   color:grey;
   font-size:20px;
+}
+#fifthpart{
+  border:solid;
+  border-top-width:2px;
+  border-bottom-width:2px;
+  border-left:0px;
+  border-right:0px;
+  border-color:#373C40;
+  margin-right: 100px;
+  margin-top:50px;
+  margin-bottom:25px;
+  margin-left:100px;
+  text-align:center;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-template-rows:repeat(1,1fr);
+}
+#language{
+  text-align:left;
+}
+
+#fifthicon{
+  text-align:right;
+}
+
+#finalfooter{
+  margin-right:100px;
+  margin-bottom:50px;
+  margin-left:100px;
+  text-align: left;
 }
