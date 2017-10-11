@@ -246,10 +246,12 @@ a:visited{
   grid-template-rows:repeat(1,1fr);
 }
 li{
+   list-style-type: none;
   font-size:14px;
   margin:5px;
 }
 li.forthminititle{
+  
   color:grey;
   font-size:20px;
 }
@@ -282,4 +284,8 @@ li.forthminititle{
   margin-bottom:50px;
   margin-left:100px;
   text-align: left;
+}
+
+.fa-1x{
+  margin:5px;
 }
