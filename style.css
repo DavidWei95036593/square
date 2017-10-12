@@ -21,6 +21,7 @@ body{
 }
 #middle{
   margin:100px;
+  margin-bottom:10px;
     font-size:18px;
   /*margin:10px;*/
   /*display:grid;
@@ -111,9 +112,11 @@ a:visited{
   text-decoration: none;}
 
 .last{
+  margin-bottom:50px;
   text-align: center;
 }
 #footer{
+  margin-top:0px;
   color:#2586B7;
   }
 
