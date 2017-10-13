@@ -7,7 +7,6 @@ body{
 }
 
 #container{
-
   height:700px;
   display:grid;
   grid-template-columns:repeat(4,1fr)
@@ -19,53 +18,50 @@ body{
   font-size:32px;
   color:#2E3B4E;
 }
+.boox{
+  margin:10px;
+  height:350px;
+  width:259px;
+}
 #middle{
   margin:100px;
   margin-bottom:10px;
-    font-size:18px;
-  /*margin:10px;*/
-  /*display:grid;
-  grid-template-columns:repeat(4,1fr);*/
+  font-size:18px;
+
 }
 .flex{
-  /*flex-wrap:wrap;*/
-  /*margin:10px;*/
   display:flex;
   justify-content: space-between;
   align-items:center;
+  margin:10px;
 }
 
 #left{
-/*width:20%;*/
 border-color:#EDB312;
 text-align: center;
-}
-p.content{
-    font-size:18px;
+margin:10px;
 }
 
+
 #centerleft{
-/*grid-column:1/2;*/
-/*width:20%;*/
 text-align: center;
+margin:10px;
 }
 
 #centerright{
-/*grid-column:1/2;*/
-/*width:20%;*/
 text-align: center;
+margin:10px;
 }
 
 #right{
-/*grid-column:1/2;*/
-/*width:20%;*/
 text-align: center;
+margin:10px;
 }
 
-.content{
+p.content{
+  margin:23px;
   color:#5F6A7D;
-  text-align: center;
-  font-size:10px;
+  font-size:16px;
 }
 .yellow{
   color:#EDB312;
@@ -92,15 +88,22 @@ text-align: center;
   border-radius:10px;
 }
 .yellowbox:hover{
+    margin:10px;
   border:solid;
+   border-width:1px;
   border-color:#EDB312;
 }
 .greenbox:hover{
+  margin:10px;
   border:solid;
+   border-width:1px;
   border-color:#95BF15
 }
 .bluegreenbox:hover{
+
+  margin:10px;
   border:solid;
+  border-width:1px;
   border-color:#46C9B3;
 }
 a:link{
@@ -108,6 +111,7 @@ a:link{
   text-decoration: none;
 }
 a:visited{
+  margin:10px;
   color:inherit;
   text-decoration: none;}
 
@@ -122,11 +126,16 @@ a:visited{
 
 
 #secondpart{
+  text-align:center;
   display:grid;
   grid-template-row:repeat(3,1fr);
 }
 
 #imgcontainer{
+  align-items:center;
+  height:698px;
+  width:1036px;
+
   display:grid;
   grid-template-column:repeat(2,1fr);
   grid-template-row:repeat(2,1fr);
@@ -140,8 +149,8 @@ a:visited{
 }
 
 #rightpart{
-   margin:10px;
-   grid-column-start:3;
+  margin:10px;
+  grid-column-start:3;
   grid-column-end:5;
   display:grid;
   grid-template-column:repeat(2,1fr);
@@ -202,11 +211,9 @@ a:visited{
   display:grid;
   grid-template-columns:repeat(3,1fr);
   grid-template-rows:repeat(2,1fr);
-
 }
 
 .con{
-  border:solid;
   border:solid;
   border-top-width:2px;
   border-bottom-width:2px;
@@ -257,7 +264,6 @@ li{
   margin:5px;
 }
 li.forthminititle{
-
   color:grey;
   font-size:20px;
 }
@@ -296,8 +302,13 @@ li.forthminititle{
 .fa-1x{
   margin:5px;
 }
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
-    }
+@media only screen and (max-width: 1024px) {
+#imgcontainer{
+  text-align:center;
+  width:1069px;
+  height:698px;
+  display:grid;
+  grid-template-column:repeat(2,1fr);
+  grid-template-row:repeat(2,1fr);
+}
 }
