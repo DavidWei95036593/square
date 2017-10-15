@@ -401,62 +401,62 @@ li.forthminititle{
 
 @media only screen and (max-width: 720px) {
   #middle{
-    margin: 0 auto;
-    width:700px;
-    height:1600px;
+    margin:0;
+     width:425px;
+     height:1600px;
     display:grid;
-    grid-template-column:repeat(4,1fr);
-    grid-template-row:repeat(4,1fr);
-  }
-  #center{
-    text-align:center;
-    font-size:30px;
-    width:420px;
-  }
-   #left{
-   text-align: center;
-    border:solid;
-    grid-column-start:1;
-    grid-column-end:2;
-    grid-row-start:1;
-    grid-row-end:1;
-    display:inline;
-  }
-  #centerleft{
-    grid-column-start:1;
-    grid-column-end:1;
-    grid-row-start:2;
-    grid-row-end:2;
-  }
-    #centerright{
-    grid-column-start:1;
-    grid-column-end:1;
-    grid-row-start:3;
-    grid-row-end:3;
-  }
-  #right{
-    grid-column-start:1;
-    grid-column-end:3;
-    grid-row-start:4;
-    grid-row-end:4;
-  }
-  #imgcontainer{
-    margin:0 auto;
-      width:425px;
-    height:700px;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(4,1fr);
+       border:solid;
+
   }
 
-  #text{
+  #center{
+ 
+    font-size:30px;
+  /*  margin-left:150px;*/
+    width:425px;
+  }
+   #left{
+    grid-column-start:1;
+    grid-column-end:1;
+    grid-row-start:1;
+    grid-row-end:2;
+  }
+  #centerleft{
+  grid-column-start:1;
+    grid-column-end:1;
+    grid-row-start:2;
+    grid-row-end:3;
+  }
+  #centerright{
+      grid-column-start:1;
+    grid-column-end:1;
+    grid-row-start:3;
+    grid-row-end:4;
+  }
+  #right{
+  grid-column-start:1;
+    grid-column-end:1;
+    grid-row-start:4;
+    grid-row-end:5;
+  }
+ #imgcontainer{
+    margin:0 auto;
+     width:425px;
+
+  }
+
+ #text{
   margin:0 auto;
-    width:700px;
+     width:425px;
 }
 
   #forthandfifthpart{
-  margin:0 auto;
-  width:683px;
-  display:grid;
-  grid-template-column:repeat(3,1fr);
-  grid-template-row:repeat(4,1fr);
+    width:700px;
+    display:grid;
+    grid-template-column:repeat(3,1fr);
+    grid-template-row:repeat(4,1fr);
   }
 
     #forthleft{
