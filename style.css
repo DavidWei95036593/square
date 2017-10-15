@@ -187,9 +187,10 @@ a:visited{
 }
 
 #text{
-  font-size:30px;
+  font-size:28px;
   margin-top:50px;
   margin-bottom:50px;
+ margin:50px;
   background-color:#FAFAFA;
 }
 
@@ -226,7 +227,9 @@ a:visited{
   margin-left:100px;
   border-color:#E0E0E0;
 }
-
+#thridparttitle{
+font-size:30px;
+}
 #thirdmiddlepart{
 
   text-align: center;
@@ -320,6 +323,10 @@ li.forthminititle{
   }
 
   #text{
+  font-size:23px;
+
+  background-color:#FAFAFA;
+
   margin:0 auto;
     width:700px;
 }
@@ -521,7 +528,6 @@ li.forthminititle{
     grid-column-end:4;
     grid-row-start:1;
     grid-row-end:2;
-
   }
   #forthright{
 
@@ -529,8 +535,5 @@ li.forthminititle{
     grid-column-end:4;
     grid-row-start:3;
     grid-row-end:4;
-
   }
- 
-
 }
