@@ -400,7 +400,6 @@ li.forthminititle{
 
 @media only screen and (max-width: 720px) {
   #middle{
-    border:solid;
     margin:0 auto;
     width:425px;
     height:1600px;
